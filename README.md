@@ -46,18 +46,18 @@ Métodos Principales
  *realizar_venta(nombre_producto, cantidad): Gestiona la venta de un producto, actualizando el inventario en tiempo real.
 
  USO
- # Crear un producto genérico
+ #Crear un producto genérico
 producto1 = Producto("Camisa", 25.99, 100)
 
-# Crear un producto electrónico
+#Crear un producto electrónico
 producto_elec = ProductoElectronico("Laptop", 999.99, 50, 24)
 
-# Mostrar información de los productos
+#Mostrar información de los productos
 producto1.mostrar_info()
 producto_elec.mostrar_info()
 
-# Introducir más stock
+#Introducir más stock
 producto1.introducir_stock(50)
 
-# Realizar una venta
+#Realizar una venta
 producto1.retirar_stock(10)
